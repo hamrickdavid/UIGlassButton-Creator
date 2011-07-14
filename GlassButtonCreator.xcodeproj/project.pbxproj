@@ -1,0 +1,270 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A28AB69F13CE743400A5F55B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A28AB69E13CE743400A5F55B /* UIKit.framework */; };
+		A28AB6A113CE743500A5F55B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A28AB6A013CE743500A5F55B /* Foundation.framework */; };
+		A28AB6A313CE743500A5F55B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A28AB6A213CE743500A5F55B /* CoreGraphics.framework */; };
+		A28AB6A913CE743500A5F55B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A28AB6A713CE743500A5F55B /* InfoPlist.strings */; };
+		A28AB6AC13CE743500A5F55B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A28AB6AB13CE743500A5F55B /* main.m */; };
+		A28AB6AF13CE743500A5F55B /* GlassButtonCreatorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A28AB6AE13CE743500A5F55B /* GlassButtonCreatorAppDelegate.m */; };
+		A28AB6B213CE743500A5F55B /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = A28AB6B013CE743500A5F55B /* MainWindow.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A28AB69A13CE743400A5F55B /* GlassButtonCreator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GlassButtonCreator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A28AB69E13CE743400A5F55B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A28AB6A013CE743500A5F55B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A28AB6A213CE743500A5F55B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A28AB6A613CE743500A5F55B /* GlassButtonCreator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GlassButtonCreator-Info.plist"; sourceTree = "<group>"; };
+		A28AB6A813CE743500A5F55B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A28AB6AA13CE743500A5F55B /* GlassButtonCreator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GlassButtonCreator-Prefix.pch"; sourceTree = "<group>"; };
+		A28AB6AB13CE743500A5F55B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A28AB6AD13CE743500A5F55B /* GlassButtonCreatorAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlassButtonCreatorAppDelegate.h; sourceTree = "<group>"; };
+		A28AB6AE13CE743500A5F55B /* GlassButtonCreatorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GlassButtonCreatorAppDelegate.m; sourceTree = "<group>"; };
+		A28AB6B113CE743500A5F55B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A28AB69713CE743400A5F55B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A28AB69F13CE743400A5F55B /* UIKit.framework in Frameworks */,
+				A28AB6A113CE743500A5F55B /* Foundation.framework in Frameworks */,
+				A28AB6A313CE743500A5F55B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A28AB68F13CE743400A5F55B = {
+			isa = PBXGroup;
+			children = (
+				A28AB6A413CE743500A5F55B /* GlassButtonCreator */,
+				A28AB69D13CE743400A5F55B /* Frameworks */,
+				A28AB69B13CE743400A5F55B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A28AB69B13CE743400A5F55B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A28AB69A13CE743400A5F55B /* GlassButtonCreator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A28AB69D13CE743400A5F55B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A28AB69E13CE743400A5F55B /* UIKit.framework */,
+				A28AB6A013CE743500A5F55B /* Foundation.framework */,
+				A28AB6A213CE743500A5F55B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A28AB6A413CE743500A5F55B /* GlassButtonCreator */ = {
+			isa = PBXGroup;
+			children = (
+				A28AB6AD13CE743500A5F55B /* GlassButtonCreatorAppDelegate.h */,
+				A28AB6AE13CE743500A5F55B /* GlassButtonCreatorAppDelegate.m */,
+				A28AB6B013CE743500A5F55B /* MainWindow.xib */,
+				A28AB6A513CE743500A5F55B /* Supporting Files */,
+			);
+			path = GlassButtonCreator;
+			sourceTree = "<group>";
+		};
+		A28AB6A513CE743500A5F55B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A28AB6A613CE743500A5F55B /* GlassButtonCreator-Info.plist */,
+				A28AB6A713CE743500A5F55B /* InfoPlist.strings */,
+				A28AB6AA13CE743500A5F55B /* GlassButtonCreator-Prefix.pch */,
+				A28AB6AB13CE743500A5F55B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A28AB69913CE743400A5F55B /* GlassButtonCreator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A28AB6B513CE743500A5F55B /* Build configuration list for PBXNativeTarget "GlassButtonCreator" */;
+			buildPhases = (
+				A28AB69613CE743400A5F55B /* Sources */,
+				A28AB69713CE743400A5F55B /* Frameworks */,
+				A28AB69813CE743400A5F55B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GlassButtonCreator;
+			productName = GlassButtonCreator;
+			productReference = A28AB69A13CE743400A5F55B /* GlassButtonCreator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A28AB69113CE743400A5F55B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "David Hamrick";
+			};
+			buildConfigurationList = A28AB69413CE743400A5F55B /* Build configuration list for PBXProject "GlassButtonCreator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A28AB68F13CE743400A5F55B;
+			productRefGroup = A28AB69B13CE743400A5F55B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A28AB69913CE743400A5F55B /* GlassButtonCreator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A28AB69813CE743400A5F55B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A28AB6A913CE743500A5F55B /* InfoPlist.strings in Resources */,
+				A28AB6B213CE743500A5F55B /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A28AB69613CE743400A5F55B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A28AB6AC13CE743500A5F55B /* main.m in Sources */,
+				A28AB6AF13CE743500A5F55B /* GlassButtonCreatorAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A28AB6A713CE743500A5F55B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A28AB6A813CE743500A5F55B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A28AB6B013CE743500A5F55B /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A28AB6B113CE743500A5F55B /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A28AB6B313CE743500A5F55B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		A28AB6B413CE743500A5F55B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		A28AB6B613CE743500A5F55B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GlassButtonCreator/GlassButtonCreator-Prefix.pch";
+				INFOPLIST_FILE = "GlassButtonCreator/GlassButtonCreator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A28AB6B713CE743500A5F55B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GlassButtonCreator/GlassButtonCreator-Prefix.pch";
+				INFOPLIST_FILE = "GlassButtonCreator/GlassButtonCreator-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A28AB69413CE743400A5F55B /* Build configuration list for PBXProject "GlassButtonCreator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A28AB6B313CE743500A5F55B /* Debug */,
+				A28AB6B413CE743500A5F55B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A28AB6B513CE743500A5F55B /* Build configuration list for PBXNativeTarget "GlassButtonCreator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A28AB6B613CE743500A5F55B /* Debug */,
+				A28AB6B713CE743500A5F55B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A28AB69113CE743400A5F55B /* Project object */;
+}
