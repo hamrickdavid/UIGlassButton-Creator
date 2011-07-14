@@ -7,6 +7,7 @@
 //
 
 #import "GlassButtonCreatorAppDelegate.h"
+#import "RootVC.h"
 
 @implementation GlassButtonCreatorAppDelegate
 
@@ -15,7 +16,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    RootVC* rootVC = [[[RootVC alloc] init] autorelease];
+    UINavigationController* navController = [[[UINavigationController alloc] initWithRootViewController:rootVC] autorelease];
+    self.window.rootViewController = navController;
+    
     [self.window makeKeyAndVisible];
     return YES;
 }

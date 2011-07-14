@@ -14,6 +14,9 @@
 		A28AB6AC13CE743500A5F55B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A28AB6AB13CE743500A5F55B /* main.m */; };
 		A28AB6AF13CE743500A5F55B /* GlassButtonCreatorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A28AB6AE13CE743500A5F55B /* GlassButtonCreatorAppDelegate.m */; };
 		A28AB6B213CE743500A5F55B /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = A28AB6B013CE743500A5F55B /* MainWindow.xib */; };
+		A28AB6BB13CE75A400A5F55B /* RootVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A28AB6B913CE75A400A5F55B /* RootVC.m */; };
+		A28AB6BC13CE75A400A5F55B /* RootVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = A28AB6BA13CE75A400A5F55B /* RootVC.xib */; };
+		A28AB6BE13CE773600A5F55B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A28AB6BD13CE773600A5F55B /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,10 @@
 		A28AB6AD13CE743500A5F55B /* GlassButtonCreatorAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlassButtonCreatorAppDelegate.h; sourceTree = "<group>"; };
 		A28AB6AE13CE743500A5F55B /* GlassButtonCreatorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GlassButtonCreatorAppDelegate.m; sourceTree = "<group>"; };
 		A28AB6B113CE743500A5F55B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		A28AB6B813CE75A400A5F55B /* RootVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootVC.h; sourceTree = "<group>"; };
+		A28AB6B913CE75A400A5F55B /* RootVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootVC.m; sourceTree = "<group>"; };
+		A28AB6BA13CE75A400A5F55B /* RootVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootVC.xib; sourceTree = "<group>"; };
+		A28AB6BD13CE773600A5F55B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A28AB6BE13CE773600A5F55B /* QuartzCore.framework in Frameworks */,
 				A28AB69F13CE743400A5F55B /* UIKit.framework in Frameworks */,
 				A28AB6A113CE743500A5F55B /* Foundation.framework in Frameworks */,
 				A28AB6A313CE743500A5F55B /* CoreGraphics.framework in Frameworks */,
@@ -64,6 +72,7 @@
 		A28AB69D13CE743400A5F55B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A28AB6BD13CE773600A5F55B /* QuartzCore.framework */,
 				A28AB69E13CE743400A5F55B /* UIKit.framework */,
 				A28AB6A013CE743500A5F55B /* Foundation.framework */,
 				A28AB6A213CE743500A5F55B /* CoreGraphics.framework */,
@@ -78,6 +87,9 @@
 				A28AB6AE13CE743500A5F55B /* GlassButtonCreatorAppDelegate.m */,
 				A28AB6B013CE743500A5F55B /* MainWindow.xib */,
 				A28AB6A513CE743500A5F55B /* Supporting Files */,
+				A28AB6B813CE75A400A5F55B /* RootVC.h */,
+				A28AB6B913CE75A400A5F55B /* RootVC.m */,
+				A28AB6BA13CE75A400A5F55B /* RootVC.xib */,
 			);
 			path = GlassButtonCreator;
 			sourceTree = "<group>";
@@ -145,6 +157,7 @@
 			files = (
 				A28AB6A913CE743500A5F55B /* InfoPlist.strings in Resources */,
 				A28AB6B213CE743500A5F55B /* MainWindow.xib in Resources */,
+				A28AB6BC13CE75A400A5F55B /* RootVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,6 +170,7 @@
 			files = (
 				A28AB6AC13CE743500A5F55B /* main.m in Sources */,
 				A28AB6AF13CE743500A5F55B /* GlassButtonCreatorAppDelegate.m in Sources */,
+				A28AB6BB13CE75A400A5F55B /* RootVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
